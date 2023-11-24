@@ -1,0 +1,279 @@
+@media (max-width: 412px) {
+    @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(44, 44, 44);
+  transition: 0.3s;
+}
+.button-circle {
+  width: 300px;
+  height: 100px;
+  margin: 0px 0 0 50px;
+  position: relative;
+  border-radius: 50px;
+  border: 3px solid rgb(165, 165, 165);
+  background-color: rgb(235, 235, 235);
+  box-shadow: inset 0 0 40px rgb(85, 85, 85), -1px 1px #b9bbb9;
+  transition: ease-in 0.4s;
+}
+#botao1 {
+  width: 100px;
+  height: 100%;
+  border-radius: 48px;
+  position: absolute;
+  background-color: rgb(90, 90, 90);
+  transition: 0.5s;
+  box-shadow: inset 0 0 40px black, -1px 1px #989d97;
+}
+#botao1.hidden {
+  transform: translateX(194px);
+}
+.button-circle.hidden4 {
+  background-color: #000;
+  box-shadow: none;
+}
+
+#botao2 {
+  width: 300px;
+  height: 100px;
+  margin: 50px 0 0 50px;
+  background-color: rgb(222, 114, 243);
+  text-align: center;
+  padding: 38px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  border-radius: 3px;
+  transition: 0.1s;
+  user-select: none;
+}
+.click {
+  content: "";
+  width: 300px;
+  height: 100px;
+  margin: -90px 0 0 40px;
+  position: absolute;
+  background-color: rgb(210, 0, 252);
+  border-radius: 3px;
+  z-index: -1;
+}
+#botao2.hidden1 {
+  transform: translateX(-10px) translateY(10px);
+}
+
+.mouth {
+  width: 275px;
+  height: 100px;
+  margin: 150px 0 0 50px;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: inset 0 0 40px black, 0px 0px #989d97;
+  overflow: hidden;
+}
+#rotate {
+  transform: rotate(3deg);
+  transition: 0.4s;
+}
+#rotate2 {
+  transform: rotate(-3deg);
+  transition: 0.4s;
+}
+.teeth {
+  width: 30px;
+  height: 20px;
+  margin: -10px 0 0 0px;
+  position: absolute;
+  background-color: rgb(172, 172, 172);
+  display: inline-block;
+  border-radius: 0 0 5px 5px;
+}
+.teeth1 {
+  margin: -10px 0 0 35px;
+}
+.teeth2 {
+  margin: -10px 0 0 70px;
+}
+.teeth3 {
+  margin: -10px 0 0 105px;
+}
+.teeth4 {
+  margin: -10px 0 0 140px;
+}
+.teeth5 {
+  margin: -10px 0 0 175px;
+}
+.teeth6 {
+  margin: -10px 0 0 210px;
+}
+.teeth14 {
+  margin: -10px 0 0 245px;
+}
+.teeth7 {
+  width: 30px;
+  height: 20px;
+  margin: 90px 0 0 0px;
+  position: absolute;
+  background-color: rgb(172, 172, 172);
+  display: inline-block;
+  border-radius: 5px 5px 0 0;
+}
+.teeth8 {
+  margin: 90px 0 0 35px;
+}
+.teeth9 {
+  margin: 90px 0 0 70px;
+}
+.teeth10 {
+  margin: 90px 0 0 105px;
+}
+.teeth11 {
+  margin: 90px 0 0 140px;
+}
+.teeth12 {
+  margin: 90px 0 0 175px;
+}
+.teeth13 {
+  margin: 90px 0 0 210px;
+}
+.teeth15 {
+  margin: 90px 0 0 245px;
+}
+#circle {
+  width: 95px;
+  height: 95px;
+  margin-top: 2px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: rgb(43, 43, 43);
+  box-shadow: inset 0 0 40px rgb(0, 0, 0), -1px 1px #000000;
+  transition: 0.4s;
+  border: 2px solid rgb(7, 75, 14);
+}
+#circle.hidden2 {
+  transform: translateX(180px);
+  border: 2px solid rgb(112, 8, 8);
+}
+
+#h1 {
+  color: white;
+  margin: 50px 0 0 250px;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 30px;
+}
+#h2 {
+  color: white;
+  margin: 50px 0 0 100px;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+#on {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  margin: 90px 0 0 100px;
+  background-color: rgb(14, 141, 27);
+  box-shadow: 0 0 20px 0 rgb(15, 204, 47);
+}
+#off {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  margin: 90px 0 0 250px;
+  background-color: rgb(112, 8, 8);
+}
+
+.interruptor {
+  width: 280px;
+  height: 120px;
+  margin: 200px 0 0 50px;
+  background-color: #464646;
+  border: 3px solid #000;
+  box-shadow: 0px 20px 60px #464646;
+}
+#switch {
+  width: 260px;
+  height: 115px;
+  background-color: #fff;
+  top: 30%;
+  margin: -312px 0 0 50px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+#switch.hidden6 {
+  margin: -312px 0 0 70px;
+}
+.middle {
+  width: 5px;
+  height: 115px;
+  margin-left: 130px;
+  background-color: rgba(0, 0, 0, 0.4);
+  filter: blur(5px);
+  box-shadow: 0px 0px 50px 40px rgba(0, 0, 0, 0.4);
+}
+
+/*-----jack head----*/
+
+.jack {
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: rgb(46, 46, 46);
+  box-shadow: inset 0px 0px 10px #000;
+  margin: -80px 0 0 80px;
+}
+.jack h1 {
+  position: absolute;
+  margin: 33px 0 0 20px;
+  font-size: 33px;
+  color: #fff;
+  font-weight: lighter;
+  filter: drop-shadow(0px 0px 10px #000);
+  font-family: "Nanum Pen Script";
+  user-select: none;
+}
+#jack-head {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  margin: 5px 0 0 104px;
+  top: 5px;
+  border-radius: 50px;
+  background-color: #dadada;
+  filter: drop-shadow(0 0 4px #000);
+  transition: 1s;
+  overflow: hidden;
+}
+#jack-head2 {
+  width: 90px;
+  height: 90px;
+  right: 1;
+  position: absolute;
+  transform: translateX(104px);
+  border-radius: 50px;
+  background-color: rgb(255, 196, 0);
+  filter: drop-shadow(0 0 4px #000);
+  transition: 1s;
+}
+#jack-head2.move2 {
+    transform: translateX(0px);
+}
+#jack-head.move1 {
+  margin: 5px 0 0 6px;
+}
+#title2 {
+  margin: 33px 0 0 104px;
+  color: rgb(190, 128, 11);
+}
+
+}
