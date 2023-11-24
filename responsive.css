@@ -161,14 +161,14 @@ body {
 
 #h1 {
   color: white;
-  margin: 50px 0 0 220px;
+  margin: 50px 0 0 80px;
   position: absolute;
   font-weight: lighter;
   font-size: 30px;
 }
 #h2 {
   color: white;
-  margin: 50px 0 0 80px;
+  margin: 50px 0 0 220px;
   position: absolute;
   font-weight: lighter;
   font-size: 30px;
