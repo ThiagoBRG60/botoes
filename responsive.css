@@ -1,4 +1,4 @@
-@media (max-width: 412px) {
+@media (max-width: 360px) {
     @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 
 * {
@@ -13,7 +13,7 @@ body {
 .button-circle {
   width: 300px;
   height: 100px;
-  margin: 0px 0 0 50px;
+  margin: 0px 0 0 35px;
   position: relative;
   border-radius: 50px;
   border: 3px solid rgb(165, 165, 165);
@@ -41,7 +41,7 @@ body {
 #botao2 {
   width: 300px;
   height: 100px;
-  margin: 50px 0 0 50px;
+  margin: 50px 0 0 35px;
   background-color: rgb(222, 114, 243);
   text-align: center;
   padding: 38px;
@@ -56,7 +56,7 @@ body {
   content: "";
   width: 300px;
   height: 100px;
-  margin: -90px 0 0 40px;
+  margin: -90px 0 0 25px;
   position: absolute;
   background-color: rgb(210, 0, 252);
   border-radius: 3px;
@@ -69,7 +69,7 @@ body {
 .mouth {
   width: 275px;
   height: 100px;
-  margin: 150px 0 0 50px;
+  margin: 150px 0 0 35px;
   border-radius: 50px;
   position: relative;
   box-shadow: inset 0 0 40px black, 0px 0px #989d97;
@@ -161,14 +161,14 @@ body {
 
 #h1 {
   color: white;
-  margin: 50px 0 0 250px;
+  margin: 50px 0 0 240px;
   position: absolute;
   font-weight: lighter;
   font-size: 30px;
 }
 #h2 {
   color: white;
-  margin: 50px 0 0 100px;
+  margin: 50px 0 0 90px;
   position: absolute;
   font-weight: lighter;
   font-size: 30px;
@@ -179,7 +179,7 @@ body {
   height: 30px;
   border-radius: 50%;
   position: absolute;
-  margin: 90px 0 0 100px;
+  margin: 90px 0 0 95px;
   background-color: rgb(14, 141, 27);
   box-shadow: 0 0 20px 0 rgb(15, 204, 47);
 }
@@ -188,14 +188,14 @@ body {
   height: 30px;
   border-radius: 50%;
   position: absolute;
-  margin: 90px 0 0 250px;
+  margin: 90px 0 0 240px;
   background-color: rgb(112, 8, 8);
 }
 
 .interruptor {
   width: 280px;
   height: 120px;
-  margin: 200px 0 0 50px;
+  margin: 150px 0 0 35px;
   background-color: #464646;
   border: 3px solid #000;
   box-shadow: 0px 20px 60px #464646;
@@ -205,13 +205,13 @@ body {
   height: 115px;
   background-color: #fff;
   top: 30%;
-  margin: -312px 0 0 50px;
+  margin: -304px 0 0 35px;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 #switch.hidden6 {
-  margin: -312px 0 0 70px;
+  margin: -304px 0 0 55px;
 }
 .middle {
   width: 5px;
@@ -230,7 +230,7 @@ body {
   border-radius: 50px;
   background-color: rgb(46, 46, 46);
   box-shadow: inset 0px 0px 10px #000;
-  margin: -80px 0 0 80px;
+  margin: -60px 0 0 75px;
 }
 .jack h1 {
   position: absolute;
