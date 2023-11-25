@@ -58,19 +58,6 @@ botaoMouth.addEventListener("click", () => {
   }
 });
 
-const interruptor = document.getElementById("switch");
-const bodyColor = document.querySelector("body");
-
-interruptor.addEventListener("click", () => {
-  interruptor.classList.toggle("hidden6");
-
-  if (interruptor.classList.contains("hidden6")) {
-    bodyColor.style.backgroundColor = "rgba(27,27,27";
-  } else {
-    bodyColor.style.backgroundColor = "white";
-  }
-});
-
 //-----Jack Head-----//
 
 const jackHead = document.getElementById("jack-head");
@@ -85,3 +72,36 @@ jackHead.addEventListener("click", () => {
     jackHead2.classList.remove("move2");
   }
 });
+
+// area do switch //
+
+const down = document.getElementById("shadow-down");
+const up = document.getElementById("shadow-up");
+const up2 = document.getElementById("shadow-up2");
+const stripe = document.getElementById("shadow-stripe");
+const onbtn = document.getElementById("shadow-on-btn");
+const ligar = document.getElementById("ligar-luz");
+const bodyColor = document.querySelector('body')
+
+function ligarLuz() {
+    down.classList.toggle("butswitch");
+    up.classList.toggle("butswitch");
+    up2.classList.toggle("butswitch");
+    stripe.classList.toggle("butswitch");
+    onbtn.classList.toggle("butswitch");
+    bodyColor.classList.toggle('bodyCor')
+
+    if (bodyColor.classList.contains('bodyCor')) {
+      bodyColor.style.backgroundColor = '#000'
+    }else {
+      bodyColor.style.backgroundColor = "#FFF";
+    }
+
+
+    if (onbtn.innerHTML === "OFF") {
+      onbtn.innerHTML = "ON";
+    } else {
+      onbtn.innerHTML = "OFF";
+    }
+  };
+
